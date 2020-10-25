@@ -1,0 +1,48 @@
+
+
+
+ <script type="text/javascript" language="JavaScript">
+	<!-- Begin
+	function textCounter(field, countfield, maxlimit) {
+		//function textCounter(maxlimit) {
+		//var field = document.getElementById(message).form;
+		//var countfield = document.getElementById(remLen);
+		if (field.value.length > maxlimit) // if too long...trim it!
+			field.value = field.value.substring(0, maxlimit);
+			// otherwise, update 'characters left' counter
+		else 
+			countfield.value = maxlimit - field.value.length;
+        }
+
+	function checkfields() {
+
+		if(document.getElementById("formdata[name]").value.length < 3) {
+    		alert("<{$smarty.const._AM_CONT_JSNAME}>");
+			return false; // 
+		}
+		if(document.getElementById("formdata[email]").value == 0) {
+			alert("<{$smarty.const._AM_CONT_JSEMAIL}>");
+			return false; // 
+		}
+		if(document.getElementById("formdata[subject]").value == 0) {
+			alert("<{$smarty.const._AM_CONT_JSSUBJECT}>");
+			return false; // 
+		}
+		if(document.getElementById("formdata[text]").value == 0) {
+			alert("<{$smarty.const._AM_CONT_JSTEXT}>");
+			return false; // 
+		}
+   
+		return true;
+   
+	} // end function
+
+//-->
+</script>
+
+<{$introtext}>
+
+<{$verifyerror}>
+
+<{$submitform}>
+

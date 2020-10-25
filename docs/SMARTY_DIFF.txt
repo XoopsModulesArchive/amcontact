@@ -1,0 +1,7 @@
+Module Name      : AM Contact
+Module developer : Andrew Mills ajmills@sirium.net
+
+Version 0.05
+============
+Template: amcont_index.html
+ + <{$introtext}>

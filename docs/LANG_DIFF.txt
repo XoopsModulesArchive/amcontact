@@ -1,0 +1,15 @@
+Module Name      : AM Contact
+Module developer : Andrew Mills ajmills@sirium.net
+
+
+Version 0.05
+============
+
+ + _MI_AMCONT_TBOXWIDTH
+ + _MI_AMCONT_TBOXWIDTHDSC
+ + _MI_AMCONT_TBOXHEIGHT
+ + _MI_AMCONT_TBOXHEIGHTDSC
+ + _MI_AMCONT_INTROTEXT
+ + _MI_AMCONT_INTROTEXTDSC
+ + _MI_AMCONT_INTROTEXTTXT
+ 

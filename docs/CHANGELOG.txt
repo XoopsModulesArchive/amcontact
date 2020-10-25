@@ -1,0 +1,25 @@
+AM Contact History
+
+Key:
+ + Added feature.
+ - Removed.
+ ! Bug fix.
+ o General comment.
+
+
+version 0.05 (Released: 2007/04/ )
+==================================
+
+ + Added preference to add some intro text above the submit form.
+ + The width and height of the main message text box can now be set in the 
+   module prefs so it better matches your site.
+ ! Fixed incorrect link to gzip/zip version in about page.
+ 
+ 
+version 0.04 (Released: )
+=========================
+
+ o First public release.
+ o Changelog started.
+   
+   
